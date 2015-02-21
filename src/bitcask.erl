@@ -91,7 +91,7 @@
                   merge_lock :: reference(),
                   max_file_size :: integer(),
                   input_files :: [#filestate{}],
-                  input_file_ids :: set(),
+                  input_file_ids :: sets:set(),
                   min_file_id :: non_neg_integer(),
                   tombstone_write_files :: [#filestate{}],
                   out_file :: 'fresh' | #filestate{},

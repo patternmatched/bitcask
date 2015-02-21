@@ -44,7 +44,7 @@
 -define(SERVER, ?MODULE). 
 -define(TIMEOUT, 1000).
 
--record(state, {q :: queue()}).
+-record(state, {q :: queue:queue()}).
 
 %%%===================================================================
 %%% API
